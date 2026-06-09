@@ -1,75 +1,38 @@
-# Aptly Landing
+<div align="center">
+    <img src="public/demo.gif" alt="Brook demo" width="480" />
+</div>
 
-Next.js 15 application with App Router and TypeScript.
+## <div align="center">Brook</div>
 
-## Getting Started
+<div align="center"><h4>Made real-time data handling easy.</h4></div>
 
-1. Install dependencies:
-```bash
-npm install
-```
+<div align="center">
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px; margin-top: 16px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" height="36" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="36" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" height="36" />
+    </div>
+</div>
 
-2. Run the development server:
-```bash
-npm run dev
-```
+## Overview
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Brook aims to make real-time handling as easy as possible.
 
-## Project Structure
+Power your app with real-time updates at any scale, fully managed, zero maintenance, always live.
 
-```
-aptly-landing/
-├── public/                          # Static assets
-│   └── image/                       # Image assets
-│
-├── src/
-│   ├── app/                         # Next.js App Router
-│   │   ├── (admin)/                 # Admin route group
-│   │   ├── (content)/               # Content route group
-│   │   │   └── LandingPage/
-│   │   │       └── _components/
-│   │   ├── layout.tsx               # Root layout
-│   │   ├── page.tsx                 # Home page
-│   │   └── globals.css              # Global styles
-│   │
-│   ├── components/                  # Shared components
-│   ├── lib/                         # Library code
-│   │   ├── api/                     # API clients
-│   │   ├── constants/               # Constants
-│   │   ├── context/                 # React context
-│   │   └── utils/                   # Utility functions
-│
-├── .gitignore
-├── global.d.ts
-├── next.config.mjs
-├── next-env.d.ts
-├── package.json
-├── postcss.config.mjs
-├── README.md
-├── server.ts
-├── tailwind.config.ts
-└── tsconfig.json
-```
+Checkout the <a href="https://demo.aptly.cloud" target="_blank">Live Demo</a>
 
-## Available Scripts
+## App features
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run server` - Run custom server
+- Limitless fan-out
+- History
+- Connection state and recovery
+- Topics
+- Rewind
+- Deliver once
 
-## Routes
+## Tools Used
 
-- `/` - Home page
-- `/LandingPage` - Landing page with components
-- `/dashboard` - Admin dashboard
-
-## Tech Stack
-
-- Next.js 15
-- React 19
-- TypeScript
-- Tailwind CSS
-- ESLint
+- [NextJS]: Site framework
+- [Typescript](https://www.typescriptlang.org): Core language for app logic
+- [React](https://react.dev/): UI component library
