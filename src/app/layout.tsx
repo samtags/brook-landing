@@ -5,7 +5,7 @@ import Providers from "./providers";
 import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
-  title: "Aptly - Built to deliver",
+  title: "Brook - Built to deliver",
   description:
     "Realtime that just works. Built to scale, engineered for reliability, and low latency.",
 };

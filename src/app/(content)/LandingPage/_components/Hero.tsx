@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Space from "./Space";
+// import Space from "./Space";
 
 export function Hero() {
   return (
@@ -38,7 +38,8 @@ export function Hero() {
           Connect once — Scale automatically.
         </div>
 
-        <Space />
+        {/* <Space /> */}
+        <div className="pb-10" />
       </div>
     </section>
   );
@@ -50,7 +51,7 @@ export function HeroBadge() {
       <span className="text-[#333842] rounded-full bg-white px-3 py-1">
         New
       </span>
-      Aptly 1.0 is here
+      Brook 1.0 is here
     </div>
   );
 }

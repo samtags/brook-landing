@@ -38,7 +38,7 @@ export default function Header() {
             <div className="flex justify-between items-center">
               <div className="text-black font-Satoshi font-bold text-xl select-none cursor-pointer">
                 <Link onClick={handleClickHome} href="/#">
-                  Aptly
+                  Brook
                 </Link>
               </div>
               <button
@@ -106,14 +106,14 @@ export default function Header() {
           "flex justify-between md:justify-center items-center sticky top-4 z-10 mx-4 lg:mx-auto p-3 px-4 md:px-3 md:py-6 lg:py-3",
           !isMobileMenuOpen && isSticky && "nav-blur-bg",
           isSticky ? "lg:max-w-4xl" : "lg:max-w-6xl",
-          isReady ? "opacity-100" : "opacity-0"
+          isReady ? "opacity-100" : "opacity-0",
           // isMobileMenuOpen && "bg-white"
         )}
       >
         <div className="md:absolute md:left-6">
           <div className="text-black font-Satoshi font-bold text-xl select-none cursor-pointer">
             <Link onClick={handleClickHome} href="/#">
-              Aptly
+              Brook
             </Link>
           </div>
         </div>
